@@ -8,7 +8,7 @@ Documentação do costumer service.
 
 | Resource |method | Url | Body Request |
 |----|---|-----|-----|
-| Lista todos Costumers | GET | `http://localhost:8080/customers` | |
+| Lista todos Costumers | GET | `http://localhost:8080/customers?page=` | |
 | Lista Costumer especifico pelo Id | GET | `http://localhost:8080/customers/{id}` | |
 | Criar um Costumer | POST | `http://localhost:8080/customers` | X |
 | Atualiza um Costumer | PUT | `http://localhost:8080/customers/{id}` | X |
