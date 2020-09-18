@@ -12,7 +12,7 @@ Documentação do costumer service.
 | Lista Costumer especifico pelo Id | GET | `http://localhost:8080/customers/{id}` | |
 | Criar um Costumer | POST | `http://localhost:8080/customers` | X |
 | Atualiza um Costumer | PUT | `http://localhost:8080/customers/{id}` | X |
-| Deleta um Costumer | POST | `http://localhost:8080/customers/{id}` |  |
+| Deleta um Costumer | DELETE | `http://localhost:8080/customers/{id}` |  |
 
 
 ### Descrição das Endpoints com Body Request
